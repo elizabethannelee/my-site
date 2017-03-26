@@ -1,22 +1,23 @@
+/* check box model
 * {
     border: 1px solid red;
 }
+*/
 
 body {
-    background-color: #3F3FBF;
+    background-color: #8FBC8F;
 }
 
-header, footer {
-    background-color: darkblue;
-    padding: 10px;
-    color: white;
+header {
+    background-color: #8FBC8F;
+    padding: 1rem;
 }
 
 /* this targets all elements with HTML tag h1 */
 h1 {
-    font-family: futura;
-    color: white;
+    font-family: Futura;
     text-align: center;
+    color: white;
   }
 
 /* this targets one HTML tag 'nav' */
@@ -35,7 +36,7 @@ nav ul {
 nav ul li {
     padding: 10px;
     margin: 5px;
-    background-color: darkblue;
+    background-color: #D3D3D3;
 }
 
 /* this targets three HTML tags */
@@ -50,20 +51,32 @@ nav ul a {
   font-family: Futura;
 }
 
-/* this targets all elements in the class 'topics'*/
-.topics {
+/* this targets all elements in the class 'intro'*/
+.intro {
   color: white;
   margin-left: 170px;
   padding: 10px;
 }
 
-/* this targets all elements with the HTML tag + class 'topics'*/
-h2.topics {
+/* this targets all elements with the HTML tag + class 'intro'*/
+h2.intro {
   padding: 5px;
+  border-bottom-width: thick;
 /*  border-radius: 60%; */
 }
+
 
 p {
     font-family: Futura;
     font-size: 20px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }

@@ -8,75 +8,137 @@ body {
     background-color: #8FBC8F;
 }
 
-header {
-    background-color: #8FBC8F;
-    padding: 1rem;
+p {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 0px 0px 18px 0px;
 }
 
 /* this targets all elements with HTML tag h1 */
 h1 {
-    font-family: Futura;
-    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 108px;
+    font-style: normal;
+    line-height: 90px;
+    margin-left: -4px;
     color: white;
   }
 
-/* this targets one HTML tag 'nav' */
+h2 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    line-height: 40px;
+    padding: 0px 0px 5 px 0px;
+    margin: 0px 0px 7px 0px;
+    border-bottom: 10px solid white;
+    color: white;
+}
+
+/*not sure this next one*/
+    .alt {
+            margin: 0px 0px 0px 0px; !important
+    }
+
+h3 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    line-height: 22px;
+    padding:0px 0px 8px 0px;
+    color: white;
+}
+
+h4 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: 22px;
+    padding: 15px 0px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/*STRUCTURE ELEMENTS*/
+
+#content {
+    width:400px;
+    height:auto;
+    margin:20px auto;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+}
+
+    #social_media {
+        padding:0px 0px 5px 0px;
+        z-index: 2;
+        position: relative;
+    }
+
+    #content hr {
+    border:0px;
+    height:5px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    width: auto;
+    }
+
+    .content_col_01, .content_col_02 {
+        float: left;
+        width:125px;
+        margin: 0px 10px 0px 0px;
+    }
+
+/*I think this is for images when added in
+    .content_col_01_alt {
+        float:left;
+        width: 250px;
+        margin: 0px 20px 0px 0px;
+    }
+*/
+
+    .content_col_03 {
+        float:left;
+        width: 125px;
+        margin: 0px 0px 0px 0px;
+    }
+
+/* Not sure what this is for yet*/
+    #block {
+        background: #ffffff;
+        padding:10px;
+    }
+
+    # block h3 {
+          line-height: 27px;
+    }
+
+/* this targets one HTML tag 'nav' that I commeneted out
 nav {
     float: left;
     padding: 20px;
 }
 
-/* this targets two HTML tags nav and ul */
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-/* this targets three HTML tags nav, ul, li */
+
 nav ul li {
     padding: 10px;
     margin: 5px;
     background-color: #D3D3D3;
 }
 
-/* this targets three HTML tags */
+
 nav ul a {
     text-decoration: none;
     color: #ffffff;
 }
-
-/* this targets all elements with the class 'topics-for-blog' */
-.topics-for-blog {
-  color: white;
-  font-family: Futura;
-}
-
-/* this targets all elements in the class 'intro'*/
-.intro {
-  color: white;
-  margin-left: 170px;
-  padding: 10px;
-}
-
-/* this targets all elements with the HTML tag + class 'intro'*/
-h2.intro {
-  padding: 5px;
-  border-bottom-width: thick;
-/*  border-radius: 60%; */
-}
-
-
-p {
-    font-family: Futura;
-    font-size: 20px;
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
+*/
